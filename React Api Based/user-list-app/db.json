@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "id": "412f",
+      "name": "PANCHAL KETAN",
+      "age": "26",
+      "salary": "23000"
+    },
+    {
+      "id": "a42a",
+      "name": "kumar panchal",
+      "age": "22",
+      "salary": "27772"
+    },
+    {
+      "id": "e44f",
+      "name": " ketankumar",
+      "age": "22",
+      "salary": "25000"
+    },
+    {
+      "id": "7b57",
+      "name": "jigar panchal",
+      "age": "22",
+      "salary": "250000"
+    }
+  ],
+  "category": [],
+  "emp": []
+}

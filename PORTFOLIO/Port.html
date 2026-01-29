@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+
+    <header>
+        <nav>
+            <div class="left">Ketan's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skiils</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+
+            <div class="leftsection">
+                Hii, My Name Is <span class="purple">Ketan.</span>
+                <div>I Am A Passionate.</div>
+                <span id="element"></span>
+                <div>
+                    <a href="My Resume.pdf" download class="btn">
+                        Download Resume
+                    </a>
+                    <a href="https://github.com/cyberketan" class="btn"> Visit GitHub</a>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="ketanport.jpg" class="avatar">
+            </div>
+        </section>
+    </main>
+
+    <!-- 2 PAGE  -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="ketanport.jpg">
+        </div>
+        <div class="about-text">
+            <h2>About<span>Me</span></h2>
+            <h4>Front-End Developer</h4>
+            <p>I’m a Front-End Developer who loves crafting beautiful and interactive web experiences. I specialize in
+                transforming ideas and designs into fast, responsive, and user-friendly interfaces using modern
+                front-end technologies like React and JavaScript. I believe in continuous learning and building products
+                that users love.</p>
+            <button class="button">More About Me</button>
+        </div>
+    </section>
+
+
+
+    <!----3 PAGE-->
+    
+    <section class="skills" id="skills">
+        <h2 class="title">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+
+            <!-- LEFT : Technical Skills -->
+            <div class="technical-skills">
+                <h3>Technical Skills</h3>
+
+                <div class="skill-bar">
+                    <span>HTML</span>
+                    <div class="progress-line html"><span>90%</span></div>
+                </div>
+
+                <div class="skill-bar">
+                    <span>CSS</span>
+                    <div class="progress-line css"><span></span></div>
+                </div>
+
+                <div class="skill-bar">
+                    <span>JavaScript</span>
+                    <div class="progress-line js"><span></span></div>
+                </div>
+
+                <div class="skill-bar">
+                    <span>Bootstarp</span>
+                    <div class="progress-line bootstrap"><span></span></div>
+
+                </div>
+
+                <div class="skill-bar">
+                    <span>React</span>
+                    <div class="progress-line react"><span></span></div>
+                </div>
+            </div>
+
+            <!-- RIGHT : Professional Skills -->
+            <div class="professional-skills">
+                <h3>Professional Skills</h3>
+
+                <div class="circle-container">
+                    <div class="circle" data-percent="90">
+                        <svg>
+                            <circle cx="60" cy="60" r="50"></circle>
+                            <circle cx="60" cy="60" r="50"></circle>
+                        </svg>
+                        <span>90%</span>
+                        <p>Creativity</p>
+                    </div>
+
+                    <div class="circle" data-percent="65">
+                        <svg>
+                            <circle cx="60" cy="60" r="50"></circle>
+                            <circle cx="60" cy="60" r="50"></circle>
+                        </svg>
+                        <span>65%</span>
+                        <p>Communication</p>
+                    </div>
+
+                    <div class="circle" data-percent="75">
+                        <svg>
+                            <circle cx="60" cy="60" r="50"></circle>
+                            <circle cx="60" cy="60" r="50"></circle>
+                        </svg>
+                        <span>75%</span>
+                        <p>Problem Solving</p>
+                    </div>
+
+                    <div class="circle" data-percent="85">
+                        <svg>
+                            <circle cx="60" cy="60" r="50"></circle>
+                            <circle cx="60" cy="60" r="50"></circle>
+                        </svg>
+                        <span>85%</span>
+                        <p>Teamwork</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+<!-- Conatact Page -->
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me</span></h2>
+            <h4>Let's Work Together</h4>
+            <p>I’m currently looking for opportunities as a Front-End Developer.
+                You can contact me for freelance work, full-time roles, or collaborations.</p>
+            <div class="contact-list">
+                <li>
+                    <i class="fa-solid fa-paper-plane"></i>
+                    Panchalketan2580@gmail.com
+                </li>
+
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    6352212934
+                </li>
+            </div>
+            <div class="contact-icons">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form action="">
+
+                <input type="text" placeholder="Enter Your Name" required>
+                <input type="email" placeholder="Enter Your Email" required>
+                <input type="text" placeholder="Enter Your Subject">
+
+                <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+                <input type="submit" value="submit" class="send">
+
+            </form>
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: [' Web-Developer.', '&amp; Front-End Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+
+
+
+</body>
+
+</html>
